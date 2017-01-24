@@ -185,3 +185,6 @@ div[style*="gif\");"] {
     background-size: 32px 32px;
     width: 32px !important;
 }
+.premium-promo-autocomplete {
+    display: none;
+}
