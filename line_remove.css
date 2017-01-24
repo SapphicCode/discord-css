@@ -1,0 +1,187 @@
+/* Blue new messages */
+.friends-table .messages .divider.divider-red>span, .theme-dark .messages-wrapper .messages .divider.divider-red>span {
+    color: #2196F3;
+}
+/* Blue mentions */
+.message-group .mentioned .message-text:after {
+    border-left: 4px solid #2196F3;
+    background: rgba(50, 110, 185, 0.15);
+}
+.message-group .mentioned .message-text, .theme-dark .message-group .mentioned .message-text {
+    background: rgba(50, 110, 185, 0.15);
+}
+/* Blue mention badge & new messages bars */
+.badge, .chat .new-messages-bar, .chat .new-messages-bar:hover,
+.friends-table .messages .divider.divider-red>div,
+.messages-wrapper .messages .divider.divider-red>div,
+.theme-dark .messages-wrapper .messages .divider.divider-red>div,
+.new-messages-indicator.new-messages-indicator-mention {
+    background-color: #2196F3;
+}
+/* Tooltips */
+.tooltip {
+    background-color: #2196F3;
+}
+.tooltip.tooltip-left:after {
+    border-left-color: #2196F3;
+}
+.tooltip.tooltip-right:after {
+    border-right-color: #2196F3;
+}
+.tooltip.tooltip-top:after {
+    border-top-color: #2196F3;
+}
+.tooltip.tooltip-bottom:after {
+    border-bottom-color: #2196F3;
+}
+/* Blue statuses */
+.status-online {
+    background-color: #03A9F4;
+}
+.status-idle {
+    background-color: #3F51B5;
+}
+.status-dnd {
+    background-color: #673AB7;
+}
+.status-streaming {
+    background-color: #03A9F4;
+}
+.status-invisible, .status-offline {
+    background-color: #9E9E9E;
+}
+
+/* Remove bot tags */
+.bot-tag {
+    display: none;
+}
+
+/* "Blocked" messages */
+.theme-dark .messages-wrapper .messages .message-group-blocked {
+    display: none;
+}
+/* Hide protips */
+.user-popout .footer {
+    display: none;
+}
+
+/* DELINIFICATION STARTS HERE */
+/* Remove lines from mute/deafen/settings buttons */
+.account .btn-group, .account .btn-deafen, .account .btn-mute, .account, #voice-connection {
+    border: none;
+}
+.account .btn-deafen, .account .btn-settings {
+    box-shadow: inherit;
+}
+.account .btn, .account .btn:active {
+    background-color: inherit;
+    box-shadow: none;
+}
+#voice-connection .btn, #voice-connection .btn:active {
+    background: inherit;
+}
+#voice-connection .btn-group, #voice-connection .btn-info {
+    border: none;
+}
+#voice-connection .btn-disconnect {
+    box-shadow: none;
+}
+/* Remove lines from messages */
+.message-group:not(.has-divider) {
+    border: none;
+}
+/* Remove search bar line */
+.search-bar {
+    box-shadow: none;
+}
+/* Remove message input border */
+.channel-textarea-inner, .theme-dark .chat form, .channel-textarea-upload,
+.channel-textarea-upload:hover {
+    border: none;
+}
+.chat form {
+    box-shadow: none;
+}
+.channel-textarea {
+    margin: 10px 0 30px;
+}
+/* Channel name border */
+.chat .title-wrap {
+    border-bottom: none;
+}
+/* Server name border */
+.guild-header header {
+    box-shadow: none;
+}
+
+/* Darkening up the UI starts here */
+/* Only for the dark theme! */
+/* Popouts (three dot menu) */
+.theme-dark .small-popout-box {
+    background: #282b30;
+    border: 1px solid #23262a;
+}
+.theme-dark .option-popout .btn-item:hover {
+    color: #fff;
+    background-color: #25282d;
+}
+/* Profiles */
+.theme-dark .user-popout .body {
+    background: #25282d;
+}
+.theme-dark .member-roles .member-role {
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    background-color: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.5);
+}
+.theme-dark .note textarea:focus {
+    background: #282b30;
+}
+/* Presence changer */
+.theme-dark .popout-menu {
+    background: #25282d;
+}
+.theme-dark .popout-menu .popout-menu-separator {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.03);
+}
+.theme-dark .popout-menu .popout-menu-item:hover {
+    background-color: rgba(255, 255, 255, 0.02);
+}
+/* Settings */
+.settings .settings-inner, .form .control-group input[type=text],
+.form .control-group input[type=email],
+.form .control-group input[type=password],
+.form .control-group input[type=number], .form .control-group textarea {
+    background: #25282d;
+    color: white;
+}
+.settings .settings-actions {
+    background-color: #25282d;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+.channel-notification-settings {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.radio .radio-inner {
+    background: rgba(255, 255, 255, 0.1);
+}
+.markdown-modal {
+    background: #25282d;
+    color: rgba(255,255,255,.7);
+}
+.mention {
+    background: rgba(114, 137, 218, 0.2);
+}
+.markdown-modal .markdown-modal-header {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Purge Discord Nitro annoyances */
+div[style*="gif\");"] {
+    background-image: url("https://emojipedia-us.s3.amazonaws.com/cache/a2/50/a250348543294386d10a4305af2c21ab.png") !important;
+}
+.badge-premium {
+    background-image: url("https://emojipedia-us.s3.amazonaws.com/cache/f7/8e/f78eba133e3bf371db483c3510dfd04f.png") !important;
+    background-size: 32px 32px;
+    width: 32px !important;
+}

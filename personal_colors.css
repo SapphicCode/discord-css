@@ -1,0 +1,11 @@
+/* Liara */
+.avatar-small[style*='136900814408122368']+.member-inner .member-username .member-username-inner,
+.avatar-large[style*='136900814408122368']+.comment .username-wrapper .user-name {
+    color: #7EA6D7 !important;
+}
+
+/* Hexadecimal */
+.avatar-small[style*='163948331956043776']+.member-inner .member-username .member-username-inner,
+.avatar-large[style*='163948331956043776']+.comment .username-wrapper .user-name {
+    color: #4E4E4E !important;
+}
