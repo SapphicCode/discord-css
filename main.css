@@ -177,7 +177,7 @@
 }
 
 /* Purge Discord Nitro annoyances */
-div[style*="gif\");"] {
+div[style*="gif?size=256\");"] {
     background-image: url("https://emojipedia-us.s3.amazonaws.com/cache/a2/50/a250348543294386d10a4305af2c21ab.png") !important;
 }
 .badge-premium {
