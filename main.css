@@ -57,9 +57,61 @@
 }
 
 /* "Blocked" messages */
+
 .theme-dark .messages-wrapper .messages .message-group-blocked {
-    display: none;
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 0;
+  margin-left: 20px;
+  margin-right: 6px;
+  border: 0px;
 }
+
+.theme-dark .messages-wrapper .messages .message-group-blocked .message-group-blocked-btn {
+  cursor: default;
+  text-transform: initial;
+  line-height: 19px;
+  font-size: 14px;
+  position: relative;
+  color: rgba(153, 170, 181, 0.3);
+  background-color: #36393e;
+  padding: 0 10px;
+}
+
+.theme-dark .messages-wrapper .messages .message-group-blocked:hover {
+  box-shadow: none;
+}
+
+.theme-dark .messages-wrapper .messages .message-group-blocked.revealed {
+  flex-direction: column;
+  align-items: flex-start;
+  height: initial;
+  background: 0;
+  border-radius: 0;
+}
+
+.theme-dark .messages-wrapper .messages .message-group-blocked.revealed .message-group-blocked-btn {
+  width: 100%;
+  padding: 0 0;
+}
+
+.theme-dark .messages-wrapper .messages .message-group-blocked.revealed .message-group {
+  width: 100%;
+}
+
+.theme-dark .messages-wrapper .messages .message-group-blocked.revealed::before, .theme-dark .messages-wrapper .messages .message-group-blocked.revealed::after {
+  display: none;
+}
+
+.theme-dark .messages-wrapper .messages .message-group-blocked + .divider {
+  margin-top: 20px;
+}
+
+.divider+.message-group-blocked, .empty-message+.message-group-blocked, .message-group-blocked+.divider {
+  margin-top: 20px;
+}
+
 /* Hide protips */
 .user-popout .footer {
     display: none;
