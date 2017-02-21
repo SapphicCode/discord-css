@@ -34,6 +34,15 @@
 .tooltip.tooltip-bottom:after {
     border-bottom-color: #2196F3;
 }
+.tooltip {
+    opacity: 1;
+    animation: fade 0.15s linear;
+}
+
+@keyframes fade {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
 /* Blue statuses */
 .status-online {
     background-color: #03A9F4;
