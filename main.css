@@ -45,16 +45,16 @@
 }
 /* Blue statuses */
 .status-online {
-    background-color: #03A9F4;
+    background-color: #769DDB;
 }
 .status-idle {
-    background-color: #3F51B5;
+    background-color: #6093AC;
 }
 .status-dnd {
-    background-color: #673AB7;
+    background-color: #AB92E1;
 }
 .status-streaming {
-    background-color: #03A9F4;
+    background-color: #AB92E1;
 }
 .status-invisible, .status-offline {
     background-color: #9E9E9E;
