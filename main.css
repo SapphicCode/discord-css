@@ -48,13 +48,13 @@
     background-color: #769DDB;
 }
 .status-idle {
-    background-color: #6093AC;
+    background-color: #76DBCD;
 }
 .status-dnd {
     background-color: #AB92E1;
 }
 .status-streaming {
-    background-color: #AB92E1;
+    background-color: #9B76DB;
 }
 .status-invisible, .status-offline {
     background-color: #9E9E9E;
