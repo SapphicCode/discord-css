@@ -236,6 +236,15 @@
 .markdown-modal .markdown-modal-header {
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
+/* User popouts */
+.user-popout .header {
+    background: url(https://pandentia.github.io/discord-css/user_bg.png);
+    background-size: 270px 213px;
+}
+.user-popout .avatar-wrapper .avatar-popout {
+    border: 4px solid #2C2F33;
+    background-color: #2C2F33;
+}
 
 /* Purge Discord Nitro annoyances */
 div[style*="gif?size=256\");"] {
