@@ -250,11 +250,6 @@
 div[style*="gif?size=256\");"] {
     background-image: url("https://emojipedia-us.s3.amazonaws.com/cache/a2/50/a250348543294386d10a4305af2c21ab.png") !important;
 }
-.badge-premium {
-    background-image: url("https://emojipedia-us.s3.amazonaws.com/cache/f7/8e/f78eba133e3bf371db483c3510dfd04f.png") !important;
-    background-size: 32px 32px;
-    width: 32px !important;
-}
 .premium-promo-autocomplete {
     display: none;
 }
