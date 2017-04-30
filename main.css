@@ -128,7 +128,7 @@
 
 /* DELINIFICATION STARTS HERE */
 /* Remove lines from mute/deafen/settings buttons */
-.account .btn-group, .account .btn-deafen, .account .btn-mute, .account, #voice-connection {
+.account .btn-group, .account .btn-deafen, .account .btn-mute, .account, #rtc-connection {
     border: none;
 }
 .account .btn-deafen, .account .btn-settings {
@@ -138,13 +138,13 @@
     background-color: inherit;
     box-shadow: none;
 }
-#voice-connection .btn, #voice-connection .btn:active {
+#rtc-connection .btn, #rtc-connection .btn:active {
     background: inherit;
 }
-#voice-connection .btn-group, #voice-connection .btn-info {
+#rtc-connection .btn-group, #rtc-connection .btn-info {
     border: none;
 }
-#voice-connection .btn-disconnect {
+#rtc-connection .btn-disconnect {
     box-shadow: none;
 }
 /* Remove lines from messages */
