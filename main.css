@@ -253,3 +253,7 @@ div[style*="gif?size=256\");"] {
 .premium-promo-autocomplete {
     display: none;
 }
+/* Honor Discord HypeSquad members */
+.profile-badge.badge-hypesquad {
+    background-image: url("https://twitter.github.io/twemoji/72x72/1f4a9.png") !important;
+}
