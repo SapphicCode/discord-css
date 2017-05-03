@@ -255,5 +255,5 @@ div[style*="gif?size=256\");"] {
 }
 /* Honor Discord HypeSquad members */
 .profile-badge.badge-hypesquad {
-    background-image: url("https://twitter.github.io/twemoji/72x72/1f4a9.png") !important;
+    background-image: url("https://twitter.github.io/twemoji/svg/1f4a9.svg") !important;
 }
